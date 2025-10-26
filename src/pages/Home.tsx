@@ -26,6 +26,7 @@ const Home = () => {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-primary-foreground leading-tight">
+                Mesothelioma Law Firm<br />
                 Asbestos Exposure Attorneys
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/95 mb-8 leading-relaxed">
@@ -250,51 +251,75 @@ const Home = () => {
         </section>
 
         {/* Asbestos Trust Funds Section */}
-        <section className="py-16 md:py-24 bg-background">
+        <section className="py-16 md:py-24 bg-muted">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary text-center">
-                Asbestos Trust Funds: Access to Compensation
-              </h2>
-              <div className="prose prose-lg max-w-none">
-                <p className="text-foreground/80 mb-4 leading-relaxed">
-                  Many companies that manufactured or used asbestos products have filed for bankruptcy due to 
-                  the overwhelming number of lawsuits. However, these companies were required to establish 
-                  asbestos trust funds to compensate current and future victims of asbestos exposure.
-                </p>
-                <p className="text-foreground/80 mb-4 leading-relaxed">
-                  There are currently over $30 billion available in asbestos trust funds from more than 60 
-                  bankrupt companies. These funds ensure that victims can still receive compensation even when 
-                  the responsible company no longer exists. Our experienced attorneys can help you identify 
-                  which trust funds you may be eligible to claim from and navigate the application process.
-                </p>
-                <div className="bg-muted rounded-lg p-6 mb-4">
-                  <h3 className="text-xl font-bold mb-3 text-primary">Key Benefits of Trust Funds:</h3>
-                  <ul className="space-y-2 text-foreground/80">
-                    <li className="flex items-start">
-                      <span className="text-secondary mr-2">✓</span>
-                      <span>Access to compensation when companies have filed bankruptcy</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-secondary mr-2">✓</span>
-                      <span>Faster resolution than traditional litigation</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-secondary mr-2">✓</span>
-                      <span>Can file claims with multiple trusts simultaneously</span>
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-secondary mr-2">✓</span>
-                      <span>Dedicated funds specifically for asbestos victims</span>
-                    </li>
-                  </ul>
-                </div>
-                <p className="text-foreground/80 leading-relaxed">
-                  <Button asChild variant="link" className="text-secondary p-0 text-lg">
-                    <Link to="/trust-funds">Learn more about asbestos trust funds →</Link>
-                  </Button>
+            <div className="max-w-5xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary">
+                  Asbestos Trust Funds
+                </h2>
+                <p className="text-xl text-muted-foreground">
+                  Access to Over $30 Billion in Compensation
                 </p>
               </div>
+
+              <Card className="mb-8 border-2 border-secondary/20">
+                <CardContent className="p-8">
+                  <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+                    Many companies that manufactured or used asbestos products have filed for bankruptcy due to 
+                    the overwhelming number of lawsuits. However, these companies were required to establish 
+                    asbestos trust funds to compensate current and future victims of asbestos exposure.
+                  </p>
+                  <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+                    There are currently over <span className="font-bold text-secondary">$30 billion available</span> in 
+                    asbestos trust funds from more than 60 bankrupt companies. These funds ensure that victims can 
+                    still receive compensation even when the responsible company no longer exists.
+                  </p>
+                  
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-muted rounded-lg p-6">
+                      <h3 className="text-xl font-bold mb-4 text-primary">Key Benefits</h3>
+                      <ul className="space-y-3">
+                        <li className="flex items-start">
+                          <CheckCircle className="h-5 w-5 text-secondary mr-3 mt-0.5 flex-shrink-0" />
+                          <span className="text-foreground/80">Access compensation from bankrupt companies</span>
+                        </li>
+                        <li className="flex items-start">
+                          <CheckCircle className="h-5 w-5 text-secondary mr-3 mt-0.5 flex-shrink-0" />
+                          <span className="text-foreground/80">Faster resolution than traditional litigation</span>
+                        </li>
+                        <li className="flex items-start">
+                          <CheckCircle className="h-5 w-5 text-secondary mr-3 mt-0.5 flex-shrink-0" />
+                          <span className="text-foreground/80">File claims with multiple trusts simultaneously</span>
+                        </li>
+                        <li className="flex items-start">
+                          <CheckCircle className="h-5 w-5 text-secondary mr-3 mt-0.5 flex-shrink-0" />
+                          <span className="text-foreground/80">Dedicated funds for asbestos victims</span>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="bg-primary/5 rounded-lg p-6 border-2 border-primary/10">
+                      <h3 className="text-xl font-bold mb-4 text-primary">How We Help</h3>
+                      <p className="text-foreground/80 mb-4">
+                        Our experienced attorneys can help you:
+                      </p>
+                      <ul className="space-y-2 text-foreground/80">
+                        <li>• Identify eligible trust funds</li>
+                        <li>• Navigate the application process</li>
+                        <li>• Maximize your compensation</li>
+                        <li>• Handle all legal requirements</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="text-center">
+                    <Button asChild size="lg" className="font-semibold">
+                      <Link to="/trust-funds">Learn More About Trust Funds</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>

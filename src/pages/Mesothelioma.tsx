@@ -2,6 +2,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import ContactForm from "@/components/ContactForm";
+import ContactInfo from "@/components/ContactInfo";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import heroImage from "@/assets/mesothelioma-hero.jpg";
 
@@ -266,6 +267,7 @@ const Mesothelioma = () => {
           </div>
         </section>
 
+        <ContactInfo />
         <CTASection />
       </main>
 

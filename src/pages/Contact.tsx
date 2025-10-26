@@ -55,7 +55,7 @@ const Contact = () => {
                             877-323-6376
                           </a>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Available 24/7 for urgent cases
+                            Call for a free consultation
                           </p>
                         </div>
                       </div>
@@ -88,12 +88,13 @@ const Contact = () => {
                           <MapPin className="h-6 w-6 text-secondary" />
                         </div>
                         <div>
-                          <h3 className="font-semibold text-lg mb-1 text-primary">Service Area</h3>
+                          <h3 className="font-semibold text-lg mb-1 text-primary">Office Location</h3>
                           <p className="text-foreground/80">
-                            Representing clients nationwide in all 50 states
+                            100 Starr Ave, Suite C<br />
+                            Starkville, MS 39759
                           </p>
-                          <p className="text-sm text-muted-foreground mt-1">
-                            Home consultations available
+                          <p className="text-sm text-muted-foreground mt-2">
+                            Representing clients nationwide in all 50 states
                           </p>
                         </div>
                       </div>
@@ -110,11 +111,9 @@ const Contact = () => {
                           <h3 className="font-semibold text-lg mb-1 text-primary">Office Hours</h3>
                           <ul className="text-foreground/80 space-y-1">
                             <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
-                            <li>Saturday: 9:00 AM - 3:00 PM</li>
-                            <li>Sunday: By appointment</li>
                           </ul>
                           <p className="text-sm text-muted-foreground mt-1">
-                            Emergency cases accepted anytime
+                            Flexible scheduling available
                           </p>
                         </div>
                       </div>
