@@ -38,6 +38,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/trust-funds" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  Trust Funds
+                </Link>
+              </li>
+              <li>
                 <Link to="/blog" className="text-primary-foreground/80 hover:text-accent transition-colors">
                   Blog & Resources
                 </Link>
@@ -51,12 +56,22 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://www.cancer.org/cancer/types/mesothelioma.html"
+                  href="https://www.cancer.org/cancer/risk-prevention/chemicals/asbestos.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  American Cancer Society
+                  American Cancer Society - Asbestos
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.cancer.org/cancer/types/malignant-mesothelioma.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary-foreground/80 hover:text-accent transition-colors"
+                >
+                  ACS - Malignant Mesothelioma
                 </a>
               </li>
               <li>
@@ -104,8 +119,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <Mail className="h-5 w-5 text-accent mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@schillinglaw.net" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  info@schillinglaw.net
+                <a href="mailto:claims@slfclaims.com" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  claims@slfclaims.com
                 </a>
               </li>
               <li className="flex items-start space-x-2">

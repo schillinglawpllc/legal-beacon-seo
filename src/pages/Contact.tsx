@@ -13,7 +13,7 @@ const Contact = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-primary to-secondary text-primary-foreground py-16 md:py-20">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary-foreground">
               Contact Schilling Law Firm
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-3xl">
@@ -70,8 +70,8 @@ const Contact = () => {
                         </div>
                         <div>
                           <h3 className="font-semibold text-lg mb-1 text-primary">Email</h3>
-                          <a href="mailto:info@schillinglaw.net" className="text-secondary hover:underline">
-                            info@schillinglaw.net
+                          <a href="mailto:claims@slfclaims.com" className="text-secondary hover:underline">
+                            claims@slfclaims.com
                           </a>
                           <p className="text-sm text-muted-foreground mt-1">
                             We respond within 24 hours

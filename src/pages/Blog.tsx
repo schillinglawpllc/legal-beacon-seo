@@ -58,7 +58,7 @@ const Blog = () => {
         {/* Hero Section */}
         <section className="bg-gradient-to-r from-primary to-secondary text-primary-foreground py-16 md:py-20">
           <div className="container mx-auto px-4">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-primary-foreground">
               Asbestos Legal Blog & Resources
             </h1>
             <p className="text-xl text-primary-foreground/90 max-w-3xl">
@@ -118,12 +118,22 @@ const Blog = () => {
                   <ul className="space-y-3 text-foreground/80">
                     <li>
                       <a 
-                        href="https://www.cancer.org/cancer/types/mesothelioma.html" 
+                        href="https://www.cancer.org/cancer/risk-prevention/chemicals/asbestos.html" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:text-secondary transition-colors"
                       >
-                        American Cancer Society
+                        American Cancer Society - Asbestos
+                      </a>
+                    </li>
+                    <li>
+                      <a 
+                        href="https://www.cancer.org/cancer/types/malignant-mesothelioma.html" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:text-secondary transition-colors"
+                      >
+                        ACS - Malignant Mesothelioma
                       </a>
                     </li>
                     <li>

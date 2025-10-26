@@ -9,6 +9,7 @@ import LungCancer from "./pages/LungCancer";
 import Asbestosis from "./pages/Asbestosis";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import TrustFunds from "./pages/TrustFunds";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/asbestosis" element={<Asbestosis />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/trust-funds" element={<TrustFunds />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

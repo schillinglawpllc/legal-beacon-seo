@@ -26,7 +26,7 @@ const Home = () => {
           <div className="container mx-auto px-4 relative z-10">
             <div className="max-w-3xl">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-primary-foreground leading-tight">
-                Mesothelioma Law Firm Fighting for Justice
+                Asbestos Exposure Attorneys
               </h1>
               <p className="text-xl md:text-2xl text-primary-foreground/95 mb-8 leading-relaxed">
                 Experienced attorneys representing asbestos exposure victims nationwide. 
@@ -66,7 +66,7 @@ const Home = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               <Card className="hover:shadow-xl transition-shadow">
                 <CardHeader>
                   <CardTitle className="text-2xl text-primary">
@@ -135,6 +135,60 @@ const Home = () => {
                   </Button>
                 </CardContent>
               </Card>
+
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-primary">
+                    Colon Cancer
+                  </CardTitle>
+                  <CardDescription className="text-base">
+                    Asbestos-related colon and colorectal cancer
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-foreground/80 mb-4">
+                    Studies have shown a link between asbestos exposure and increased risk of colon cancer. 
+                    Workers who inhaled or ingested asbestos fibers may develop colorectal cancer years 
+                    after exposure. Our team can help determine if your diagnosis qualifies for compensation.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-primary">
+                    Esophageal Cancer
+                  </CardTitle>
+                  <CardDescription className="text-base">
+                    Cancer of the esophagus linked to asbestos
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-foreground/80 mb-4">
+                    Research indicates that asbestos exposure can increase the risk of esophageal cancer. 
+                    When asbestos fibers are swallowed, they can damage the esophageal lining over time. 
+                    If you've been diagnosed, you may be entitled to significant compensation.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="hover:shadow-xl transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-2xl text-primary">
+                    Stomach Cancer
+                  </CardTitle>
+                  <CardDescription className="text-base">
+                    Gastric cancer from asbestos fiber ingestion
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-foreground/80 mb-4">
+                    Asbestos exposure has been linked to an increased risk of stomach cancer. Ingested 
+                    asbestos fibers can lodge in the stomach lining, potentially leading to cancer development 
+                    decades later. Our experienced attorneys can help you pursue compensation.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
@@ -189,6 +243,56 @@ const Home = () => {
                 <h3 className="text-xl font-bold mb-2 text-primary">Nationwide Service</h3>
                 <p className="text-muted-foreground">
                   Representing clients across the United States in asbestos cases
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Asbestos Trust Funds Section */}
+        <section className="py-16 md:py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary text-center">
+                Asbestos Trust Funds: Access to Compensation
+              </h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-foreground/80 mb-4 leading-relaxed">
+                  Many companies that manufactured or used asbestos products have filed for bankruptcy due to 
+                  the overwhelming number of lawsuits. However, these companies were required to establish 
+                  asbestos trust funds to compensate current and future victims of asbestos exposure.
+                </p>
+                <p className="text-foreground/80 mb-4 leading-relaxed">
+                  There are currently over $30 billion available in asbestos trust funds from more than 60 
+                  bankrupt companies. These funds ensure that victims can still receive compensation even when 
+                  the responsible company no longer exists. Our experienced attorneys can help you identify 
+                  which trust funds you may be eligible to claim from and navigate the application process.
+                </p>
+                <div className="bg-muted rounded-lg p-6 mb-4">
+                  <h3 className="text-xl font-bold mb-3 text-primary">Key Benefits of Trust Funds:</h3>
+                  <ul className="space-y-2 text-foreground/80">
+                    <li className="flex items-start">
+                      <span className="text-secondary mr-2">✓</span>
+                      <span>Access to compensation when companies have filed bankruptcy</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-secondary mr-2">✓</span>
+                      <span>Faster resolution than traditional litigation</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-secondary mr-2">✓</span>
+                      <span>Can file claims with multiple trusts simultaneously</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-secondary mr-2">✓</span>
+                      <span>Dedicated funds specifically for asbestos victims</span>
+                    </li>
+                  </ul>
+                </div>
+                <p className="text-foreground/80 leading-relaxed">
+                  <Button asChild variant="link" className="text-secondary p-0 text-lg">
+                    <Link to="/trust-funds">Learn more about asbestos trust funds →</Link>
+                  </Button>
                 </p>
               </div>
             </div>
