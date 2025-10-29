@@ -32,7 +32,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send notification email to law firm
     const notificationEmail = await resend.emails.send({
       from: "Schilling Law Firm <onboarding@resend.dev>",
-      to: ["contact@schillinglawfirm.com"], // Replace with actual law firm email
+      to: ["claims@slfclaims.com"],
       subject: `New Contact Form Submission - ${diagnosis}`,
       html: `
         <h2>New Contact Form Submission</h2>
