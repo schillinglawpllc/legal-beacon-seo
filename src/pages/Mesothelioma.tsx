@@ -45,7 +45,7 @@ const Mesothelioma = () => {
                     Mesothelioma is a rare and aggressive form of cancer that develops in the mesothelium, 
                     the protective lining covering most of the body's internal organs. According to the{" "}
                     <a 
-                      href="https://www.cancer.org/cancer/types/mesothelioma.html" 
+                      href="https://www.cancer.org/cancer/types/malignant-mesothelioma.html" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-secondary hover:underline font-medium"

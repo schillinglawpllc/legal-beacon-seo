@@ -354,14 +354,14 @@ const Asbestosis = () => {
                   </p>
                   <ul className="space-y-2">
                     <li>
-                      <a href="/mesothelioma" className="text-secondary hover:underline font-medium">
+                      <Link to="/mesothelioma" className="text-secondary hover:underline font-medium">
                         Mesothelioma
-                      </a> - Rare and aggressive cancer of organ linings
+                      </Link> - Rare and aggressive cancer of organ linings
                     </li>
                     <li>
-                      <a href="/lung-cancer" className="text-secondary hover:underline font-medium">
+                      <Link to="/lung-cancer" className="text-secondary hover:underline font-medium">
                         Asbestos Lung Cancer
-                      </a> - Cancer developing within lung tissue from asbestos exposure
+                      </Link> - Cancer developing within lung tissue from asbestos exposure
                     </li>
                   </ul>
                 </div>
@@ -381,12 +381,12 @@ const Asbestosis = () => {
                     </li>
                     <li>
                       <a 
-                        href="https://www.nhlbi.nih.gov/health/asbestosis" 
+                        href="https://www.mayoclinic.org/diseases-conditions/asbestosis/symptoms-causes/syc-20354637" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-secondary hover:underline"
                       >
-                        National Heart, Lung, and Blood Institute - Asbestosis
+                        Mayo Clinic - Asbestosis
                       </a>
                     </li>
                     <li>

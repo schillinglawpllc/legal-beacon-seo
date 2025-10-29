@@ -155,7 +155,7 @@ const Blog = () => {
                     </li>
                     <li>
                       <a 
-                        href="https://www.mayoclinic.org/diseases-conditions/mesothelioma" 
+                        href="https://www.mayoclinic.org/diseases-conditions/asbestosis/symptoms-causes/syc-20354637" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:text-secondary transition-colors"
