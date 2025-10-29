@@ -64,10 +64,10 @@ const Blog = () => {
         <title>Asbestos & Mesothelioma Legal Resources | Schilling Law Firm Blog</title>
         <meta name="description" content="Expert articles on asbestos exposure, mesothelioma, lung cancer, trust funds, and legal rights. Educational resources for asbestos victims and families." />
         <meta name="keywords" content="asbestos information, mesothelioma resources, asbestos exposure articles, legal resources, asbestos diseases" />
-        <link rel="canonical" href="https://schillinglawfirm.com/blog" />
+        <link rel="canonical" href="https://schillinglaw.net/blog" />
         <meta property="og:title" content="Asbestos & Mesothelioma Legal Resources" />
         <meta property="og:description" content="Expert articles on asbestos exposure and legal rights" />
-        <meta property="og:url" content="https://schillinglawfirm.com/blog" />
+        <meta property="og:url" content="https://schillinglaw.net/blog" />
         <meta property="og:type" content="website" />
       </Helmet>
       <Navigation />

@@ -15,10 +15,10 @@ const LungCancer = () => {
         <title>Asbestos Lung Cancer Lawyers | Legal Help for Asbestos Exposure Victims</title>
         <meta name="description" content="Experienced attorneys for asbestos-related lung cancer. Learn about SCLC and NSCLC from asbestos exposure. Free consultation. Call 877-323-6376." />
         <meta name="keywords" content="asbestos lung cancer lawyer, asbestos exposure attorney, lung cancer compensation, asbestos cancer lawyer" />
-        <link rel="canonical" href="https://schillinglawfirm.com/lung-cancer" />
+        <link rel="canonical" href="https://schillinglaw.net/lung-cancer" />
         <meta property="og:title" content="Asbestos Lung Cancer Lawyers | Legal Help for Exposure Victims" />
         <meta property="og:description" content="Experienced attorneys fighting for lung cancer victims with asbestos exposure history" />
-        <meta property="og:url" content="https://schillinglawfirm.com/lung-cancer" />
+        <meta property="og:url" content="https://schillinglaw.net/lung-cancer" />
         <meta property="og:type" content="article" />
       </Helmet>
       <Navigation />

@@ -15,10 +15,10 @@ const Asbestosis = () => {
         <title>Asbestosis Attorneys | Legal Help for Chronic Lung Disease from Asbestos</title>
         <meta name="description" content="Experienced asbestosis lawyers helping victims secure compensation. Learn about symptoms, treatment & legal rights. Free consultation. Call 877-323-6376." />
         <meta name="keywords" content="asbestosis lawyer, asbestosis attorney, asbestos lung disease, asbestosis compensation, asbestos injury lawyer" />
-        <link rel="canonical" href="https://schillinglawfirm.com/asbestosis" />
+        <link rel="canonical" href="https://schillinglaw.net/asbestosis" />
         <meta property="og:title" content="Asbestosis Attorneys | Legal Help for Chronic Lung Disease" />
         <meta property="og:description" content="Experienced attorneys helping asbestosis victims recover compensation" />
-        <meta property="og:url" content="https://schillinglawfirm.com/asbestosis" />
+        <meta property="og:url" content="https://schillinglaw.net/asbestosis" />
         <meta property="og:type" content="article" />
       </Helmet>
       <Navigation />

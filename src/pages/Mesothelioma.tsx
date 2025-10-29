@@ -15,10 +15,10 @@ const Mesothelioma = () => {
         <title>Mesothelioma Attorneys | Legal Help for Asbestos Cancer Victims</title>
         <meta name="description" content="Experienced mesothelioma lawyers fighting for compensation. Learn about pleural, peritoneal & pericardial mesothelioma. Free consultation. Call 877-323-6376." />
         <meta name="keywords" content="mesothelioma attorney, mesothelioma lawyer, pleural mesothelioma, peritoneal mesothelioma, asbestos cancer" />
-        <link rel="canonical" href="https://schillinglawfirm.com/mesothelioma" />
+        <link rel="canonical" href="https://schillinglaw.net/mesothelioma" />
         <meta property="og:title" content="Mesothelioma Attorneys | Legal Help for Asbestos Cancer Victims" />
         <meta property="og:description" content="Fighting for justice and compensation for mesothelioma victims nationwide" />
-        <meta property="og:url" content="https://schillinglawfirm.com/mesothelioma" />
+        <meta property="og:url" content="https://schillinglaw.net/mesothelioma" />
         <meta property="og:type" content="article" />
       </Helmet>
       <Navigation />

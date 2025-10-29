@@ -12,10 +12,10 @@ const TrustFunds = () => {
         <title>Asbestos Trust Funds | Access $30+ Billion in Compensation</title>
         <meta name="description" content="Learn about asbestos trust funds and how to file claims. Over $30 billion available from bankrupt companies. Free consultation. Call 877-323-6376." />
         <meta name="keywords" content="asbestos trust funds, mesothelioma trust fund, asbestos bankruptcy trust, asbestos compensation fund" />
-        <link rel="canonical" href="https://schillinglawfirm.com/trust-funds" />
+        <link rel="canonical" href="https://schillinglaw.net/trust-funds" />
         <meta property="og:title" content="Asbestos Trust Funds | Access $30+ Billion in Compensation" />
         <meta property="og:description" content="Access compensation from over $30 billion in asbestos trust funds" />
-        <meta property="og:url" content="https://schillinglawfirm.com/trust-funds" />
+        <meta property="og:url" content="https://schillinglaw.net/trust-funds" />
         <meta property="og:type" content="article" />
       </Helmet>
       <Navigation />
