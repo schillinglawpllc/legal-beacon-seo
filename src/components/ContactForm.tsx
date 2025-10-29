@@ -52,18 +52,33 @@ const ContactForm = () => {
   const onSubmit = async (data: FormValues) => {
     setIsSubmitting(true);
     
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
-    console.log("Form submitted:", data);
-    
-    toast({
-      title: "Message Sent Successfully",
-      description: "We'll contact you within 24 hours to discuss your case.",
-    });
+    try {
+      const { supabase } = await import("@/integrations/supabase/client");
+      
+      const { data: result, error } = await supabase.functions.invoke('send-contact-email', {
+        body: data,
+      });
 
-    form.reset();
-    setIsSubmitting(false);
+      if (error) {
+        throw error;
+      }
+
+      toast({
+        title: "Message Sent Successfully",
+        description: "We'll contact you within 24 hours to discuss your case.",
+      });
+
+      form.reset();
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      toast({
+        title: "Error Sending Message",
+        description: "There was a problem submitting your form. Please try again or call us directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
