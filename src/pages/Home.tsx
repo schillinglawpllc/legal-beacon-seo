@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, Award, Users, FileText } from "lucide-react";
@@ -10,6 +11,19 @@ import heroImage from "@/assets/hero-medical.jpg";
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Mesothelioma Law Firm | Asbestos Exposure Attorneys | Schilling Law Firm</title>
+        <meta name="description" content="Experienced mesothelioma attorneys representing asbestos exposure victims nationwide. Free consultations. Call 877-323-6376 for legal help with asbestos-related diseases." />
+        <meta name="keywords" content="mesothelioma lawyer, asbestos attorney, mesothelioma law firm, asbestos exposure lawyer, asbestos compensation" />
+        <link rel="canonical" href="https://schillinglawfirm.com/" />
+        <meta property="og:title" content="Mesothelioma Law Firm | Asbestos Exposure Attorneys" />
+        <meta property="og:description" content="Experienced attorneys representing asbestos exposure victims nationwide. Free consultations available." />
+        <meta property="og:url" content="https://schillinglawfirm.com/" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mesothelioma Law Firm | Asbestos Exposure Attorneys" />
+        <meta name="twitter:description" content="Experienced attorneys representing asbestos exposure victims nationwide. Free consultations available." />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">

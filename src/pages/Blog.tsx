@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import { Helmet } from "react-helmet-async";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -59,6 +60,16 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Asbestos & Mesothelioma Legal Resources | Schilling Law Firm Blog</title>
+        <meta name="description" content="Expert articles on asbestos exposure, mesothelioma, lung cancer, trust funds, and legal rights. Educational resources for asbestos victims and families." />
+        <meta name="keywords" content="asbestos information, mesothelioma resources, asbestos exposure articles, legal resources, asbestos diseases" />
+        <link rel="canonical" href="https://schillinglawfirm.com/blog" />
+        <meta property="og:title" content="Asbestos & Mesothelioma Legal Resources" />
+        <meta property="og:description" content="Expert articles on asbestos exposure and legal rights" />
+        <meta property="og:url" content="https://schillinglawfirm.com/blog" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">

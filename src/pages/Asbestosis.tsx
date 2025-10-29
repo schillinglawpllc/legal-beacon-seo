@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -10,6 +11,16 @@ import heroImage from "@/assets/asbestosis-hero.jpg";
 const Asbestosis = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Asbestosis Attorneys | Legal Help for Chronic Lung Disease from Asbestos</title>
+        <meta name="description" content="Experienced asbestosis lawyers helping victims secure compensation. Learn about symptoms, treatment & legal rights. Free consultation. Call 877-323-6376." />
+        <meta name="keywords" content="asbestosis lawyer, asbestosis attorney, asbestos lung disease, asbestosis compensation, asbestos injury lawyer" />
+        <link rel="canonical" href="https://schillinglawfirm.com/asbestosis" />
+        <meta property="og:title" content="Asbestosis Attorneys | Legal Help for Chronic Lung Disease" />
+        <meta property="og:description" content="Experienced attorneys helping asbestosis victims recover compensation" />
+        <meta property="og:url" content="https://schillinglawfirm.com/asbestosis" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -10,6 +11,16 @@ import heroImage from "@/assets/lung-cancer-hero.jpg";
 const LungCancer = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Asbestos Lung Cancer Lawyers | Legal Help for Asbestos Exposure Victims</title>
+        <meta name="description" content="Experienced attorneys for asbestos-related lung cancer. Learn about SCLC and NSCLC from asbestos exposure. Free consultation. Call 877-323-6376." />
+        <meta name="keywords" content="asbestos lung cancer lawyer, asbestos exposure attorney, lung cancer compensation, asbestos cancer lawyer" />
+        <link rel="canonical" href="https://schillinglawfirm.com/lung-cancer" />
+        <meta property="og:title" content="Asbestos Lung Cancer Lawyers | Legal Help for Exposure Victims" />
+        <meta property="og:description" content="Experienced attorneys fighting for lung cancer victims with asbestos exposure history" />
+        <meta property="og:url" content="https://schillinglawfirm.com/lung-cancer" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">

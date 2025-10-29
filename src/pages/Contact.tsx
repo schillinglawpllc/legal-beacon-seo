@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import { Helmet } from "react-helmet-async";
 import Footer from "@/components/Footer";
 import ContactForm from "@/components/ContactForm";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
@@ -7,6 +8,16 @@ import { Card, CardContent } from "@/components/ui/card";
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Contact Schilling Law Firm | Free Consultation for Asbestos Cases</title>
+        <meta name="description" content="Get a free consultation about your asbestos exposure case. Call 877-323-6376 or fill out our contact form. Experienced mesothelioma attorneys ready to help." />
+        <meta name="keywords" content="asbestos lawyer contact, mesothelioma attorney consultation, free legal consultation, asbestos case evaluation" />
+        <link rel="canonical" href="https://schillinglawfirm.com/contact" />
+        <meta property="og:title" content="Contact Schilling Law Firm | Free Consultation" />
+        <meta property="og:description" content="Get a free, no-obligation consultation about your asbestos exposure case" />
+        <meta property="og:url" content="https://schillinglawfirm.com/contact" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">

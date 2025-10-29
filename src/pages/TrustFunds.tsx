@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import { Helmet } from "react-helmet-async";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -7,6 +8,16 @@ import { CheckCircle, DollarSign, FileText, Scale } from "lucide-react";
 const TrustFunds = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <Helmet>
+        <title>Asbestos Trust Funds | Access $30+ Billion in Compensation</title>
+        <meta name="description" content="Learn about asbestos trust funds and how to file claims. Over $30 billion available from bankrupt companies. Free consultation. Call 877-323-6376." />
+        <meta name="keywords" content="asbestos trust funds, mesothelioma trust fund, asbestos bankruptcy trust, asbestos compensation fund" />
+        <link rel="canonical" href="https://schillinglawfirm.com/trust-funds" />
+        <meta property="og:title" content="Asbestos Trust Funds | Access $30+ Billion in Compensation" />
+        <meta property="og:description" content="Access compensation from over $30 billion in asbestos trust funds" />
+        <meta property="og:url" content="https://schillinglawfirm.com/trust-funds" />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <Navigation />
       
       <main className="flex-grow">
