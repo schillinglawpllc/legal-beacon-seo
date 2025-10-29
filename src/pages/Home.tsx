@@ -348,7 +348,7 @@ const Home = () => {
                 <p className="text-foreground/80 mb-4 leading-relaxed">
                   According to the{" "}
                   <a 
-                    href="https://www.atsdr.cdc.gov/asbestos/health_effects_asbestos.html" 
+                    href="https://www.atsdr.cdc.gov/asbestos/health-effects/?CDC_AAref_Val=https://www.atsdr.cdc.gov/asbestos/health_effects_asbestos.html" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-secondary hover:underline"

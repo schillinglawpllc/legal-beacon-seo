@@ -7,10 +7,10 @@ import { Calendar } from "lucide-react";
 const Blog = () => {
   const articles = [
     {
-      title: "Understanding Your Rights After a Mesothelioma Diagnosis",
-      description: "Learn about your legal options and the compensation you may be entitled to after being diagnosed with mesothelioma.",
-      category: "Legal Rights",
-      date: "March 15, 2024",
+      title: "Understanding Asbestos Exposure Claims: Qualifications and Process",
+      description: "Learn about the qualifications required to file an asbestos exposure claim, including work history requirements and medical evidence needed.",
+      category: "Legal Advice",
+      date: "March 20, 2024",
       readTime: "8 min read"
     },
     {
