@@ -9,44 +9,51 @@ const Blog = () => {
     {
       title: "Understanding Asbestos Exposure Claims: Qualifications and Process",
       description: "Learn about the qualifications required to file an asbestos exposure claim, including work history requirements and medical evidence needed.",
-      category: "Legal Advice",
+      category: "Asbestos Exposure",
       date: "March 20, 2024",
       readTime: "8 min read"
     },
     {
+      title: "Introduction to Asbestos and Lung Cancer",
+      description: "Asbestos, once widely used for its heat resistance, is now known to pose serious health risks. Learn how inhaling asbestos fibers can lead to lung cancer and the long-term effects.",
+      category: "Asbestos Exposure",
+      date: "March 15, 2025",
+      readTime: "10 min read"
+    },
+    {
+      title: "How Asbestos Exposure Leads to Lung Cancer",
+      description: "Discover how asbestos fibers cause cellular damage in the lungs, the symptoms to watch for, and practical steps to reduce exposure and protect your health.",
+      category: "Asbestos Exposure",
+      date: "February 28, 2025",
+      readTime: "9 min read"
+    },
+    {
       title: "The History of Asbestos Use in American Industry",
       description: "Explore how asbestos became widely used despite known health risks and the industries most affected.",
-      category: "Education",
-      date: "March 10, 2024",
+      category: "Asbestos Exposure",
+      date: "February 10, 2025",
       readTime: "10 min read"
     },
     {
       title: "Latest Treatment Advances for Lung Cancer",
       description: "New immunotherapy and targeted treatments are offering hope to lung cancer patients with asbestos exposure history.",
-      category: "Medical",
-      date: "March 5, 2024",
+      category: "Asbestos Exposure",
+      date: "January 25, 2025",
       readTime: "7 min read"
     },
     {
       title: "How to Document Your Asbestos Exposure History",
       description: "Essential tips for building a strong case by properly documenting your work history and exposure sources.",
-      category: "Legal Advice",
-      date: "February 28, 2024",
+      category: "Asbestos Exposure",
+      date: "January 15, 2025",
       readTime: "6 min read"
     },
     {
       title: "Asbestosis vs. Mesothelioma: Key Differences",
       description: "Understanding the distinctions between these two serious asbestos-related diseases and their legal implications.",
-      category: "Education",
-      date: "February 22, 2024",
+      category: "Asbestos Exposure",
+      date: "January 2, 2025",
       readTime: "9 min read"
-    },
-    {
-      title: "Veterans and Asbestos Exposure: Know Your Benefits",
-      description: "Military veterans face unique challenges with asbestos exposure. Learn about VA benefits and legal options.",
-      category: "Veterans",
-      date: "February 15, 2024",
-      readTime: "11 min read"
     }
   ];
 
@@ -93,9 +100,9 @@ const Blog = () => {
                     <p className="text-foreground/80 mb-4">
                       {article.description}
                     </p>
-                    <button className="text-secondary hover:text-secondary/80 font-medium">
+                    <a href="#" className="text-secondary hover:text-secondary/80 font-medium inline-block">
                       Read Article →
-                    </button>
+                    </a>
                   </CardContent>
                 </Card>
               ))}

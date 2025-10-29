@@ -225,7 +225,7 @@ const Mesothelioma = () => {
                   <ul className="space-y-2 text-foreground/80">
                     <li>
                       <a 
-                        href="https://www.cancer.org/cancer/types/mesothelioma.html" 
+                        href="https://www.cancer.org/cancer/types/malignant-mesothelioma.html" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-secondary hover:underline"
