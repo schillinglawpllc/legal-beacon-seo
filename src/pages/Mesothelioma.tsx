@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -208,14 +209,14 @@ const Mesothelioma = () => {
                   </p>
                   <ul className="space-y-2">
                     <li>
-                      <a href="/lung-cancer" className="text-secondary hover:underline font-medium">
+                      <Link to="/lung-cancer" className="text-secondary hover:underline font-medium">
                         Asbestos-Related Lung Cancer
-                      </a> - Learn about the connection between asbestos exposure and lung cancer
+                      </Link> - Learn about the connection between asbestos exposure and lung cancer
                     </li>
                     <li>
-                      <a href="/asbestosis" className="text-secondary hover:underline font-medium">
+                      <Link to="/asbestosis" className="text-secondary hover:underline font-medium">
                         Asbestosis
-                      </a> - Understand this chronic lung disease caused by asbestos fiber inhalation
+                      </Link> - Understand this chronic lung disease caused by asbestos fiber inhalation
                     </li>
                   </ul>
                 </div>

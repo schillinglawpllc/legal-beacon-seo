@@ -100,9 +100,9 @@ const Blog = () => {
                     <p className="text-foreground/80 mb-4">
                       {article.description}
                     </p>
-                    <a href="#" className="text-secondary hover:text-secondary/80 font-medium inline-block">
-                      Read Article →
-                    </a>
+                    <span className="text-muted-foreground font-medium inline-block">
+                      Coming soon
+                    </span>
                   </CardContent>
                 </Card>
               ))}

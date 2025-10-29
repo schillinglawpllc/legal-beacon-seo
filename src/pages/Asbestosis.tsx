@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -54,8 +55,8 @@ const Asbestosis = () => {
                     causing inflammation and scarring (fibrosis) that makes breathing increasingly difficult.
                   </p>
                   <p className="text-foreground/80 mb-4 leading-relaxed">
-                    Unlike <a href="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</a> and{" "}
-                    <a href="/lung-cancer" className="text-secondary hover:underline font-medium">lung cancer</a>, 
+                    Unlike <Link to="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</Link> and{" "}
+                    <Link to="/lung-cancer" className="text-secondary hover:underline font-medium">lung cancer</Link>,
                     asbestosis is not a cancer but a serious respiratory condition that can severely impact 
                     quality of life. The disease typically develops after years of heavy exposure to asbestos 
                     and has a latency period of 10-40 years or more from initial exposure to symptom onset.
@@ -64,7 +65,7 @@ const Asbestosis = () => {
                     There is no cure for asbestosis. Once lung tissue becomes scarred, the damage is permanent 
                     and irreversible. The{" "}
                     <a 
-                      href="https://www.nhlbi.nih.gov/health/asbestosis" 
+                      href="https://www.nhlbi.nih.gov/health/interstitial-lung-diseases"
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-secondary hover:underline font-medium"
@@ -308,8 +309,8 @@ const Asbestosis = () => {
                   </ul>
                   <p className="text-foreground/80 leading-relaxed">
                     Patients with asbestosis are also at increased risk of developing other asbestos-related 
-                    diseases, including <a href="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</a> and{" "}
-                    <a href="/lung-cancer" className="text-secondary hover:underline font-medium">lung cancer</a>.
+                    diseases, including <Link to="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</Link> and{" "}
+                    <Link to="/lung-cancer" className="text-secondary hover:underline font-medium">lung cancer</Link>.
                   </p>
                 </div>
 

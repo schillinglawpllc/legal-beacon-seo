@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
@@ -73,7 +74,7 @@ const LungCancer = () => {
                 <div>
                   <h2 className="text-3xl font-bold mb-4 text-primary">Understanding the Connection</h2>
                   <p className="text-foreground/80 mb-4 leading-relaxed">
-                    Unlike <a href="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</a>, 
+                    Unlike <Link to="/mesothelioma" className="text-secondary hover:underline font-medium">mesothelioma</Link>, 
                     which affects the lining of organs, asbestos-related lung cancer develops within the 
                     lung tissue itself. The cancer typically forms in the airways (bronchi) or smaller 
                     air sacs (alveoli) of the lungs.
@@ -259,14 +260,14 @@ const LungCancer = () => {
                   </p>
                   <ul className="space-y-2">
                     <li>
-                      <a href="/mesothelioma" className="text-secondary hover:underline font-medium">
+                      <Link to="/mesothelioma" className="text-secondary hover:underline font-medium">
                         Mesothelioma
-                      </a> - A rare cancer affecting the lining of the lungs, abdomen, or heart
+                      </Link> - A rare cancer affecting the lining of the lungs, abdomen, or heart
                     </li>
                     <li>
-                      <a href="/asbestosis" className="text-secondary hover:underline font-medium">
+                      <Link to="/asbestosis" className="text-secondary hover:underline font-medium">
                         Asbestosis
-                      </a> - Chronic lung disease causing scarring and breathing difficulties
+                      </Link> - Chronic lung disease causing scarring and breathing difficulties
                     </li>
                   </ul>
                 </div>
