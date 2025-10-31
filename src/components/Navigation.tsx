@@ -13,7 +13,9 @@ const Navigation = () => {
     { name: "Mesothelioma", path: "/mesothelioma" },
     { name: "Lung Cancer", path: "/lung-cancer" },
     { name: "Asbestosis", path: "/asbestosis" },
-    { name: "Blog", path: "/blog" },
+    { name: "Trust Funds", path: "/trust-funds" },
+    { name: "Compensation", path: "/compensation" },
+    { name: "FAQ", path: "/faq" },
     { name: "Contact", path: "/contact" },
   ];
 
