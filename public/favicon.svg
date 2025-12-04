@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background circle with navy blue -->
+  <circle cx="16" cy="16" r="15" fill="#1e3a5f"/>
+  <!-- Gold accent ring -->
+  <circle cx="16" cy="16" r="15" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+  <!-- SLF text in gold/cream -->
+  <text x="16" y="21" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#c9a227" text-anchor="middle">SLF</text>
+</svg>
